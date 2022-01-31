@@ -18,6 +18,7 @@ spec: # Описание Pod
    image: nellykey/hw1:latest-dev
    ports:
     - containerPort: 8000
+      hostPort: 8000
  volumes:
   - name: app
     emptyDir: {}
