@@ -16,7 +16,7 @@ NellyKey Platform repository
 ## Как проверить работоспособность:
  - Применить конфигурацию пода;
  - Пробросить порт: kubectl port-forward --address 0.0.0.0 pod/web 8000:8000;
- - Открыть в браузере http://localhost:8000/
+ - Открыть в браузере http://localhost:8000/ 
 
 ## PR checklist:
  - [ ] Выставлен label с темой домашнего задания
